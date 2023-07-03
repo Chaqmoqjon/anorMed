@@ -20,15 +20,11 @@ button:hover {
   display: flex;
   justify-content: space-between;
 }
-.navbar {
-}
 .navbar_top {
   margin: 24px 170px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.logo {
 }
 .list ul {
   display: flex;
@@ -43,8 +39,7 @@ button:hover {
 .list ul li a {
   color: black;
 }
-.btn {
-}
+
 .sariq_btn {
   font-size: 15px;
   font-weight: 700;
@@ -106,9 +101,6 @@ margin-bottom: 80px;
 }
 .img{
     padding-right: 64px;
-}
-.text{
-
 }
 .text h2{
     text-transform: capitalize;
