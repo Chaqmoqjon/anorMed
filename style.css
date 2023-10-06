@@ -27,9 +27,13 @@ button:hover {
   justify-content: space-between;
   align-items: center;
 }
+.logo img{
+  margin-left: 25px;
+  width: 50px;
+}
 .bank{
   font-weight: 600;
-  font-size: 40px;
+  font-size: 15px;
   color: rgb(29, 95, 166);
 }
 .list ul {
