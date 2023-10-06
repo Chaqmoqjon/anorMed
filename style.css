@@ -27,7 +27,11 @@ button:hover {
   justify-content: space-between;
   align-items: center;
 }
-
+.bank{
+  font-weight: 600;
+  font-size: 40px;
+  color: rgb(29, 95, 166);
+}
 .list ul {
   display: flex;
   justify-content: space-between;
@@ -52,6 +56,7 @@ button:hover {
   border-radius: 8px;
   border: 2px solid #de2e54;
   background: #de2e54;
+  margin-bottom: 10px;
 }
 .sariq_btn:hover{
   background-color: transparent;
@@ -70,11 +75,12 @@ button:hover {
   color: #fff;
 }
 .navbar_bottom {
-  background: #0eb4c1;
+  background: #2b6798;
 }
 .navbar_bottomLeft {
   width: 500px;
   padding-top: 120px;
+  margin-bottom: 20px;
 }
 .navbar_bottomLeft h1 {
   margin-bottom: 16px;
@@ -93,6 +99,17 @@ button:hover {
 }
 .navbar_bottomRight {
   padding-top: 29px;
+  position: relative;
+}
+.navbar_bottomRight p{
+  position: absolute;
+  top: 157px;
+  right: 249px;
+  font-size: 40px;
+  color: white;
+}
+.fontAwesome{
+  font-size: 200px;
 }
 .navbar_bottomRight img {
   display: block;
@@ -171,4 +188,7 @@ button:hover {
 }
 .footer_bottom .list a:active{
   transition: all 3s ease;
+}
+.rasm{
+  width: 530px;
 }
